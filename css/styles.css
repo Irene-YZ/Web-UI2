@@ -1,0 +1,117 @@
+/* CSS Document */
+/* Reset */
+.container {
+    background-color:black;
+    color:white;
+    margin:10px;
+    padding:20px;
+	font-family:"Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
+
+}
+#top{
+	width:100%;
+	height:200px;
+}
+#logo{
+	float:left;	
+	font-size:50px;
+	font-weight:bold;
+	width:300px;
+	height:150px;
+	padding-left:20px;
+	margin-bottom:50px;
+	display:inline-block;
+}
+#mylogo{
+	float:left;	
+}
+
+/*social-media*/
+#social-media{
+	float:right;
+	height:150px;	
+	font-size: 150%;
+	width:270px;
+	text-align:right;
+	display:inline-block;
+}
+#social-media ul li {display:inline;}
+#social-media ul    {margin-top:10px;}
+
+/*nav*/
+#nav{
+	width:100%;
+	//position:relative;
+	//display:inline-block;
+	clear:both;
+}
+#nav ul { border-top:1px #F4EEEE solid;
+          border-bottom:1px #F4EEEE solid;
+		  margin:20px 0; padding:10px 0;
+}
+#nav ul li {display:inline;}
+#nav a {
+color:white;
+text-decoration: none;
+padding: 0 20px;
+}
+#nav a:link {color:white;}
+#nav a:visited {color:white;}
+#nav a:active {color:green;}
+#nav a:focus {color:blue;}
+#nav a:hover {color:orange;}
+
+
+.gl {
+	text-align:center;
+	//border: solid 2px;
+}
+.img-gl{
+	height:170px;
+	width: 300px;
+	border: solid 2px;
+	padding:10px;
+	margin:10px;
+}
+
+/*artical*/
+#artical{
+	color: white;
+	text-align:justify;
+	width:100%;
+}
+div #banner{
+	width: 100%;
+	
+}
+div #banner img-banner{
+	text-align:center !important;
+	width:700px;
+}
+#artical-left{
+	float:left;
+	width:40%;
+	padding:1%;
+}
+#artical-right{
+	float:right;
+	width:55%;
+	padding:1%;
+}
+
+@media screen and (max-width: 600px){
+	div #artical-left{float:left; width:100%;}
+	div #artical-right{float:left;width:100%;}
+}
+.shears{
+	clear:both;	
+}
+
+h1, h2, h3{
+	color: orange;
+}
+#footer{
+	text-align:center;
+	clear:both;
+	color:#DFDCDC;	
+}

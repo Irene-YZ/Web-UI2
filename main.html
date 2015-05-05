@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html>
+<head>
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>first page</title>
+<link href="css/styles.css" rel="stylesheet" type="text/css" media="screen" />
+
+<!-- it works the same with all jquery version from 1.x to 2.x -->
+<script src="js/jquery-1.9.1.min.js"></script>
+<script src="js/jssor.slider.mini.js"></script>
+<script>
+    jQuery(document).ready(function ($) {
+        var options = { $AutoPlay: true };
+        var jssor_slider1 = new $JssorSlider$('slider1_container', options);
+    });
+</script>
+
+<script type="text/javascript">
+function MM_preloadImages() { //v3.0
+  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+
+function MM_swapImgRestore() { //v3.0
+  var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
+}
+
+function MM_findObj(n, d) { //v4.01
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+  if(!x && d.getElementById) x=d.getElementById(n); return x;
+}
+
+function MM_swapImage() { //v3.0
+  var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
+   if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
+}
+</script>
+</head>
+
+<body onLoad="MM_preloadImages('images/2009-mazda-rx-8-widescreen-07.jpg','images/images (3).jpg','images/images (2).jpg','images/BMW-Sport-Car1.jpg')">
+
+<div class="container">
+<div id="top">
+  <div id="logo"> <p id="mylogo">Sports Cars </p></div>
+  
+   <div id="social-media">
+  <p>Social Media</p>
+  <ul>
+  
+ <li> <a href="http://www.nationalgeographic.com/"><img src="images/socialmedia_sleek_icons/32px/facebook.png"></a></li>
+ <li>  <a href="http://www.nationalgeographic.com/"><img src="images/socialmedia_sleek_icons/32px/linkedin.png"></a> </li>
+ <li>  <a href="http://www.nationalgeographic.com/"><img src="images/socialmedia_sleek_icons/32px/twitter.png"></a> </li>
+ <li>  <a href="http://www.nationalgeographic.com/"><img src="images/socialmedia_sleek_icons/32px/blogger.png"></a> </li>
+   </ul>
+   </div>
+  
+  </div>
+<div id="nav">
+
+<ul>
+<li><a href="index.html">HOME</a></li>
+<li><a href="about.html">ABOUT</a></li>
+<li><a href="contact.html">CONTACT</a></li>
+<li><a href="sample/products.html">PRODUCTS</a></li>
+<li><a target="_blank" href="http://chinatownkite.com/">KITES</a></li>
+<li><a href="javascript3_cheat_sheet.pdf">JavaCript PDF </a></li>
+
+</div>
+<div id="slider1_container" style="position: relative; clear:both; margin-left:auto;margin-right:auto;  top: 0px; width:600px; height: 300px;">
+    <!-- Slides Container -->
+    <div u="slides" style="cursor: move; position: absolute; overflow: hidden; top: 0px; width: 600px; height: 300px;">
+        <div><img u="image" src="images/background-640x396.jpg" /></div>
+        <div><img u="image" src="images/toyota-supra-car2.jpg" /></div>
+        <div><img u="image" src="images/Car-Wallpapers-13.jpg" /></div>
+        <div><img u="image" src="images/Sports-Car.jpg" /></div>
+    </div>
+</div>
+<div id="artical">
+<div id="artical-left">
+<h2>Welcome to Sports Cars!</h2>
+<p>
+London is the capital city of England. It is the most populous city in the United Kingdom, with a metropolitan area of over 13 million inhabitants. 
+Standing on the River Thames, London has been a major settlement for two millennia, its history going back to its founding by the Romans, who named it Londinium.</p>
+<h2>Sports Car</h2>
+<p>
+A sports car (sportscar) is a small, usually two seater, two door automobile designed for spirited performance and nimble handling. According to the Merriam-Webster dictionary, the first known use of the term was in 1928.
+
+Sports cars may be spartan or luxurious, but high maneuverability and minimum weight are requisite. They may be equipped for racing, "especially an aerodynamically shaped one-passenger or two-passenger vehicle having a low center of gravity and steering and suspension designed for precise control at high speeds."
+</p>
+</div>
+<div id="artical-right">
+<h2>Early history</h2>
+
+<p>
+The definition of a sports car is not precise, but from the earliest first automobiles "people have found ways to make them go faster, round corners better, and look more beautiful" than the ordinary models inspiring an "emotional relationship" with a car that is fun to drive and use for the sake of driving. The basis for the sports car is traced to the early 20th century touring cars and roadsters. These raced in early rallys, such as the Herkomer Cup, Prinz Heinrich Fahrt, and Monte Carlo.</p>
+<p>
+Simson in 1924 offered a Paul Henze-designed 60 hp (45 kW) DOHC 2 liter four, the Simson Supra Type S, in a long-wheelbase 120 km/h (75 mph) tourer and 115 km/h (71 mph) twin-carburettor sporter; only thirty were sold, against around three hundred of the SOHC model and 750 of the pushrod-six Type R. Duerkopp's Zoller-blown two liter in 1924, as well.
+</p>
+<p>
+Two companies would offer really reliable sports cars: Austin with the Seven and Morris Garages (MG) with the Midget.[citation needed] The Seven would quickly be "rodded" by numerous companies (as the Type 1 would be a generation later), including Bassett and Dingle (Hammersmith, London); in 1928, a Cozette blower was fitted to the Seven Super Sports, while Cecil Kimber fitted an 847 cc Minor engine, and sold more Midgets in the first year than MG's entire previous production.
+</p>
+</div>
+</div>
+<div class = "shears">
+
+<div class="gl">
+<img src="images/2009-mazda-rx-8-widescreen-08.jpg" class="img-gl" id="Image1" onMouseOver="MM_swapImage('Image1','','images/2009-mazda-rx-8-widescreen-07.jpg',1)" onMouseOut="MM_swapImgRestore()">
+<img src="images/images (3).jpg" class="img-gl" id="Image2" onMouseOver="MM_swapImage('Image2','','images/images (2).jpg',1)" onMouseOut="MM_swapImgRestore()">
+<img src="images/BMW-Sport-Car2.jpg" class="img-gl" id="Image3" onMouseOver="MM_swapImage('Image3','','images/BMW-Sport-Car1.jpg',1)" onMouseOut="MM_swapImgRestore()">
+</div>
+</div>
+
+
+<div id="footer">
+  <hr>
+<p>&copy; Copyright 2015 | All Rights Reserved | Sports Car 1234 Main st., CA 95129</p>
+</div>
+
+</div>
+</body>
+</html>
